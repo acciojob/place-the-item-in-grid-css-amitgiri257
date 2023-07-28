@@ -1,2 +1,17 @@
 
 /* Your CSS Code here. */
+  .holder {
+    display: grid;
+    grid-template-rows: repeat(2, 100px); /* Two rows, each 100px high */
+    grid-template-columns: repeat(2, 100px); /* Two columns, each 100px wide */
+    grid-gap: 10px; /* You can adjust the gap between grid items as per your preference */
+    width: 200px; /* Set the overall width of the grid */
+    height: 200px; /* Set the overall height of the grid */
+  }
+
+  /* Just some basic styling to make the grid visible */
+  .item {
+    background-color: #ccc;
+    padding: 10px;
+    text-align: center;
+  }
